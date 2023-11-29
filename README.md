@@ -37,3 +37,9 @@ PROBLEMA
     1.4 - creare ciclo for che ripeta 100 volte la creazione della cella e assegni a ogni cella testo progressivo
         1.4.1 - dichiarare variabile che richiami la funzione che crea la singola cella assegnando parametro progressivo 
         1.4.2 - appendere elemento creato a elemento che conterrà la griglia
+
+
+
+BONUS
+1 - mettere in ascolto l'elemento cella creato e assegnare un background all'evento click
+2 - visualizzare in console inoltre il numero della cella visualizzata
