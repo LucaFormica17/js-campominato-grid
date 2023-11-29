@@ -1,10 +1,10 @@
+function createCell(num){
+    const element = document.createElement('div');
+    element.classList.add('square');
+    element.innerText = num;
+    return element;
+}
 function viewGrid(){
-    function createCell(num){
-        const element = document.createElement('div');
-        element.classList.add('square');
-        element.innerText = num;
-        return element;
-    }
 
     const grid = document.getElementById('grid');
 

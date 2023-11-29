@@ -43,3 +43,17 @@ PROBLEMA
 BONUS
 1 - mettere in ascolto l'elemento cella creato e assegnare un background all'evento click
 2 - visualizzare in console inoltre il numero della cella visualizzata
+
+
+
+SUPERBONUS
+1 - recuperare elemento nel DOM che permetterà di scegliere la difficoltà
+2 - assegnare valore intero a elemento recuperato per la difficoltà
+3 - creare switch per differenziare grandezza griglia in base alla difficoltà
+4 - 
+
+
+
+
+
+
