@@ -15,13 +15,15 @@
                         <h1>Campo Minato</h1>
                     </div>
                     <div class="col-6 d-flex">
-                        <select name="difficulty" id="difficulty" class="form-control">
-                            <option value="">Choice difficulty</option>
-                            <option value="1">Easy</option>
-                            <option value="2">Normal</option>
-                            <option value="3">Hard</option>
-                        </select>
-                        <button id="start" class="btn btn-sm btn-success my-2">Start</button>
+                        <div class="content d-flex">
+                            <select name="difficulty" id="difficulty" class="form-control">
+                                <option value="">Choice difficulty</option>
+                                <option value="1">Easy</option>
+                                <option value="2">Normal</option>
+                                <option value="3">Hard</option>
+                            </select>
+                            <button id="start" class="btn btn-sm btn-success my-2">Start</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,8 +31,10 @@
         <main>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 d-flex">
-                        <div id="grid" class="d-flex flex-wrap justify-content-center"></div>
+                    <div class="col-12">
+                        <div class="content d-flex">
+                            <div id="grid" class="d-flex flex-wrap justify-content-center"></div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -33,23 +33,24 @@ function forLevel(){
 
     switch(level){
         case 1:
-        numCells = 100;
-        cellsPerSide = 10;
-        break;
+            numCells = 100;
+            cellsPerSide = 10;
+            break;
 
         case 2:
-        numCells = 81;
-        cellsPerSide = 9;
-        break;
+            numCells = 81;
+            cellsPerSide = 9;
+            break;
 
         case 3:
-        numCells = 49;
-        cellsPerSide = 7;
-        break;
+            numCells = 49;
+            cellsPerSide = 7;
+            break;
 
         default:
             numCells = 100;
             cellsPerSide = 10;
+            break;
     }
     viewGrid(numCells, cellsPerSide);
 }

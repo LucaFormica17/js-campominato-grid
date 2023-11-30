@@ -11,12 +11,13 @@ function viewGrid(){
     for(let i=0; i<100; i++){
         let square = createCell(i+1);
 
-        grid.appendChild(square);
-
         square.addEventListener('click', function(){
             this.classList.add('bg-primary');
             console.log(square.textContent);
         });
+        
+        grid.appendChild(square);
+
     }
 }
 let button = document.getElementById('start');
